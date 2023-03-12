@@ -1,0 +1,79 @@
+.container {
+    width: 100%;
+    display: flex;
+    margin-top:10px;
+}
+
+.image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b4dcf1;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+image img {
+    width: 31rem;
+}
+
+.apresentacao{
+    font-size: large;
+    font-family: monospace;
+}
+.apresentacao h1::after{
+    content: "";
+    display:block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #596cc8;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.apresentacao .pacotes{
+    box-sizing: border-box;
+}
+
+.pacote-descricao{
+    width: 240px;
+    height: 300px;
+    border: 1px solid #ddd;
+    padding: 13px;
+    border-radius: 13px;
+    margin: 20px;
+    display: inline-table;
+    position: relative;
+    box-shadow: 1px 1px 4px black;
+}
+
+.pacote-descricao h3::after{
+    content: "";
+    display:block;
+    width: 14rem;
+    height: 0.3rem;
+    background-color: #596cc8;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+.pacote-descricao p{
+    font-size: 15px;
+    font-family: monospace;
+}
+
+@media screen and (max-width:1330px) {
+    .image {
+        display: none;
+    }
+}
+
+.card-apresentacao{
+    font-family: monospace;
+    font-size: larger;
+}

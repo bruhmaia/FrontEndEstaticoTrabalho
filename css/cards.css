@@ -1,0 +1,126 @@
+
+.cards{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.titulo-cards-destaques::after{
+    content: "";
+    display:block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #596cc8;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+
+}
+
+.card{
+    width: 300px;
+    height: 450px;
+    border: 1px solid #ddd;
+    padding: 13px;
+    border-radius: 13px;
+    margin: 20px;
+    display: inline-table;
+    position: relative;
+    box-shadow: 1px 1px 4px black;
+}
+.card .price{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.card .description-card{
+    font-family: monospace;
+    font-size: large;
+}
+
+.img-card, .img-card img{
+    width: 100%;
+}
+
+.rodape-card{
+    padding-top: 11px;
+}
+
+.buy-botton{
+    border-radius: 40px;
+    width: 250px;
+    height: 30px;
+    background-color: #596cc8;
+    color: whitesmoke;
+    font-size: large;
+}
+.buy-botton:hover{
+    background-color: #020d3f;
+}
+
+.cards-encomendas{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.titulo-cards-encomendas{
+    width: 100%;
+}
+
+.titulo-cards-encomendas::after{
+    content: "";
+    display:block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #596cc8;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.card-encomenda{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ddd;
+    padding: 13px;
+    border-radius: 13px;
+    margin: 20px;
+    margin-left: 2.0%;
+    margin-right: 2.0%;
+    display: inline-table;
+    position: relative;
+    box-shadow: 1px 1px 4px black;
+}
+
+.pacote{
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+
+.vantagens{
+    font-family: monospace;
+    text-align: left;
+    font-size: large;
+    list-style-type: circle;
+}
+
+.rodape-card-encomenda{
+    padding-top: 11px;
+}
+
+.buy-botton-encomenda{
+    border-radius: 40px;
+    width: 250px;
+    height: 30px;
+    background-color: #596cc8;
+    color: whitesmoke;
+    font-size: large;
+}
+.buy-botton-encomenda:hover{
+    background-color: #020d3f;
+}

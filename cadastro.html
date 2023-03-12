@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site BlueLicorfino</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="center">
+            <div class="logo"><img src="Imagens/LogoBlueLicorfino.svg" alt="logo" height="25%" width="50%"></div>
+            <input type="checkbox" id="btn_menu">
+            <label for="btn_menu">&#9776;</label>
+            <div class="menu">
+                <ul class="menu-top">
+                    <nav>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="posteres.html">Posteres</a></li>
+                        <li><a href="https://bluesoda6.artstation.com/" target="_blank">Portifolio</a></li>
+                        <li><a href="pacotes-especiais.html">Pacotes Especiais</a></li>
+                        <li><a href="#">Cadastre-se</Cadastre-se></a></li>
+                        <li><input type="text" class="texto-pesquisa" placeholder="Buscar">
+                            <a href="#" class="botao-pesquisa">
+                                <img src="imagens/magnifying-glass.svg" alt="lupa" height="20" width="20">
+                            </a>
+                        </li>
+                    </nav>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <form class="cadastro">
+        <h2 class="title">CADASTRO DE ENCOMENDAS</h2>
+        <div class="groups">
+            <div class="group">
+                <label>Nome</label>
+                <input type="text" placeholder="Digite seu Nome" required><br>
+            </div>
+
+            <div class="group">
+                <label>Sobrenome</label>
+                <input type="text" placeholder="Digite seu Sobrenome" required><br>
+            </div>
+
+            <div class="group">
+                <label>CPF</label>
+                <input type="text" placeholder="000.000.000-00" required><br>
+            </div>
+
+            <div class="group">
+                <label>E-mail</label>
+                <input type="email" placeholder="Digite seu email" required><br>
+            </div>
+
+            <div class="group">
+                <label>Celular</label>
+                <input type="tel" placeholder="(xx) xxxxx-xxxx"><br>
+            </div>
+
+            <div class="group">
+                <label>Telefone Fixo</label>
+                <input type="tel" placeholder="(xx) xxxx-xxxx"><br>
+            </div>
+
+            <div class="group">
+                <label>País</label>
+                <input type="text" placeholder="Ex: Brasil"><br>
+            </div>
+
+            <div class="group">
+                <label>Estado</label>
+                <input type="text" placeholder="Ex: Pará"><br>
+            </div>
+
+            <div class="group">
+                <label>Cidade</label>
+                <input type="text" placeholder="Ex: Belém"><br>
+            </div>
+
+            <div class="group">
+                <label>Endereço</label>
+                <input type="text"><br>
+            </div>
+
+            <div class="group">
+                <label>Bairro</label>
+                <input type="text"><br>
+            </div>
+
+            <div class="group">
+                <label>Número</label>
+                <input type="text"><br>
+            </div>
+
+            <div class="group-encomenda">
+                <label>Escolha da Encomenda</label><br>
+                <input type="checkbox" name="pacote-peb">Pacote P&B<br>
+                <input type="checkbox" name="pacote-color">Pacote Color<br>
+                <input type="checkbox" name="pacote-pintura">Pacote Pintura
+            </div>
+
+            <div class="group-descricao">
+                <label>Descrição</label>
+                <input type="text" placeholder="escreva aqui sobre como você gostaria que fosse a sua ilustração"
+                    class="description">
+            </div>
+
+            <div class="group-arquivo"><br>
+                <p class="arquivo">Caso deseje ter uma ilustração inspirada em alguma foto ou tenha alguma referência,
+                    por favor enviar</p>
+                <label>File</label>
+                <input type="file">
+            </div>
+        </div>
+        <div class="content-btn-enviar">
+        <button class="btn-enviar">Enviar</button></div>
+    </form>
+
+    <footer class="rodape">
+
+        <div class="rodape-boxs">
+            <h2>Inicio</h2>
+            <ul class="menu-rodape">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="posteres.html">Posteres</a></li>
+                <li><a href="https://bluesoda6.artstation.com/" target="_blank">Portifolio</a></li>
+                <li><a href="pacotes-especiais.html">Pacotes Especiais</a></li>
+                <li><a href="#">Cadastre-se</Cadastre-se></a></li>
+            </ul>
+        </div>
+
+        <div class="rodape-boxs">
+            <h2>Contatos</h2>
+            <ul class="contatos">
+                <li class="telefone">
+                    <img src="Imagens/telefone.svg" alt="telefone" height="26" width="26">
+                    <span>+55 91 98210-5221</span>
+                </li>
+                <li class="email">
+                    <img src="Imagens/email.svg" alt="email" height="26" width="26">
+                    <span>bluelicorfino@gmail.com</span>
+
+                </li>
+                <li class="endereço">
+                    <img src="Imagens/endereço.svg " alt="endereco" height="26" width="26">
+                    <span>Belém, Pará</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="rodape-boxs">
+            <h2>Formas de pagamento</h2>
+            <img src="Imagens/meios_pagamento.png" height="70%" width="85%" alt="Formas de Pagamento">
+        </div>
+
+        <div class="rodape-boxs">
+            <p class="sobre-empresa">
+            <h2>Sobre a empresa</h2>
+            <strong>Blue Licorfino</strong> é uma empresa que nasceu com a proposta de criar arte,
+            desenvolvendo ilustrações digitais de personagens para jogos, livros e até mesmo retratos
+            podendo ter encomendas em 3 opções: preto e branco, colorido, e pintura completa.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
